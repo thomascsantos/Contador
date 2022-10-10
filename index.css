@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(211, 204, 204);
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 70pt;
+}
+.container{
+    background-color: gray;
+}
+.botoes{
+   display: flex;
+   justify-content: center;
+   
+}
+button{
+    padding: 30px;
+    border-radius: 10px;
+    border: none;
+    margin: 30px;
+}
